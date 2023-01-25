@@ -2,3 +2,7 @@ name: Post welcome comment is here
 on:
   pull_request:
     types: [opened]
+jobs:
+  build:
+    name: Name for build job
+    runs-on: ubuntu-latest
